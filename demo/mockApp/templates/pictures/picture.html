@@ -1,0 +1,6 @@
+{% csrf_token %}
+{{picture}}
+
+<h1>{{picture.id}}</h1>
+<h2>{{picture.image.url}}</h2>
+<img src={{picture.image.url}}/>
